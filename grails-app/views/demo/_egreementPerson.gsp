@@ -14,18 +14,6 @@
                 <g:render template="andersInfo"/>
 
             </div>
-
-            %{--<div class="eRow eBreak">--}%
-
-                %{--<g:render template="mariaInfo"/>--}%
-                %{--<g:render template="johanInfo"/>--}%
-            %{--</div>--}%
-
-            %{--<div class="eRow eBreak">--}%
-
-                %{--<g:render template="patrickInfo"/>--}%
-                %{--<g:render template="andreasInfo"/>--}%
-            %{--</div>--}%
         </div>
     </div>
 
