@@ -10,8 +10,10 @@
     <div class="eRow eBreak ePt">
         <div class="eGCol12 eGPush0">
             <div class="eRow eBreak">
-                <g:render template="peterInfo"/>
-                <g:render template="andersInfo"/>
+                <!-- Accessing data in a loop -->
+                <g:each in="${personInfo}" var="person">
+                    <g:render template="personInfo" model="[person: person.value]"/>
+                </g:each>
 
             </div>
         </div>
